@@ -22,7 +22,7 @@ public class HogwartsTeacher extends Teacher {
   public HogwartsTeacher() {}
 
   public String toString(){
-    String msg = "lastname " + lastName + "\n firstname " + firstName + "\n middlename " + middleName + "\n employment " +employment +
+    String msg = "\n lastname " + lastName + "\n firstname " + firstName + "\n middlename " + middleName + "\n employment " +employment +
     "\n employmentstart " +employmentStart + "\n employmentend " +employmentEnd + "\n house " + house + "\n head of house " +headOfHouse;
     return msg;
   }
